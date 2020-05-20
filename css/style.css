@@ -11,12 +11,7 @@ body
 {
 
   font-family: 'OpenSans-Regular', 'Arial', sans-serif;
-
-
-
   margin:0;
-  background-color:
-
 
 }
 #main
@@ -101,14 +96,13 @@ aside h2
   padding:15px;
 }
 
-#section-principale
+.section-principale
 {   
   padding:20px;
   width:80%;
   text-align:left;
-  justify-content:;
 }
-#section-principale .fas , #section-principale .far
+.section-principale .fas , .section-principale .far
 
 {
  color:yellow;
@@ -141,7 +135,6 @@ aside h2
 .list-right-part
 {
   width:70%;
-  
   padding:20px;
 }
 .list-loisir li
@@ -199,12 +192,12 @@ hr
     margin: 0;
     padding: 15px 0;
   }
-  #section-principale
+  .section-principale
   {
     width:100%;
     padding:0;
   }
-  #section-principale h2{
+  .section-principale h2{
     padding: 20px;
     width: auto;
     font-size: 20px;
