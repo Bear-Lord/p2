@@ -15,7 +15,7 @@ body
 
 
   margin:0;
-  background-color:#6A189A
+  background-color:
 
 
 }
@@ -123,14 +123,14 @@ aside h2
 .list-left-part
 {
   width:30%;
-  background-color:orange; 
+  
 }
 
 .list-left-part p 
 {
   display:inline-block;
   float:left;
-  background-color:green;
+  
 }
 .list-left-part i 
 {
@@ -141,7 +141,7 @@ aside h2
 .list-right-part
 {
   width:70%;
-  background-color:red;
+  
   padding:20px;
 }
 .list-loisir li
@@ -154,7 +154,7 @@ aside h2
 {
 
   width:50%;
-  background-color:red;
+  
 }
 
 h4,h5
@@ -195,9 +195,9 @@ hr
   }
   
   aside h2{
-  width:100%;
-  margin: 0;
-  padding: 15px 0;
+    width:100%;
+    margin: 0;
+    padding: 15px 0;
   }
   #section-principale
   {
@@ -205,9 +205,9 @@ hr
     padding:0;
   }
   #section-principale h2{
-  padding: 20px;
-  width: auto;
-  font-size: 20px;
+    padding: 20px;
+    width: auto;
+    font-size: 20px;
   }
   .li-flex 
   {
@@ -216,10 +216,10 @@ hr
 
  .list-right-part,.list-part2{
   padding:20px;
- }
- 
- .list-left-part,.list-right-part,.list-part2
- {
+}
+
+.list-left-part,.list-right-part,.list-part2
+{
   width:auto;
   margin:0;
 }
