@@ -11,7 +11,9 @@ body
 {
 
   font-family: 'OpenSans-Regular', 'Arial', sans-serif;
-  margin:0;
+  margin:0 auto;
+
+  max-width:900px;
 
 }
 #main
@@ -22,12 +24,17 @@ body
 }
 aside
 {   
-
+  display:flex;
+  flex-direction:column;
   text-align:left;
   justify-content: center;
-  background-color:#FFFF00;
-  width:20%;
+  background-color:#FECA07;
+  width:30%;
 
+}
+.a_propos
+{
+  flex:1;
 }
 .padding_10
 {
@@ -67,12 +74,12 @@ header h3
 }
 .yellow
 {
-  color:yellow;
+  color:#FECA07;
 }
 .yellow-line
 {
 
-  border-bottom:1px solid yellow;
+  border-bottom:1px solid #FECA07;
 }
 img
 {   
@@ -83,17 +90,18 @@ img
 }
 .photo
 {
-  text-align:center;
-  padding-top:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 aside h2
 {
   text-align:center;
-  background-color:#37474F;
-  color:yellow;
-  width:92%;
+  background-color:#404040;
+  color:#FECA07;
+  
   margin:0;
-  padding:15px;
+  padding:5px;
 }
 
 .section-principale
@@ -105,7 +113,7 @@ aside h2
 .section-principale .fas , .section-principale .far
 
 {
- color:yellow;
+ color:#FECA07;
  margin-right: 20px;
 
 }
@@ -130,19 +138,24 @@ aside h2
 {
   float:left;
   padding:20px;
-  color:yellow;
+  color:#FECA07;
 }
 .list-right-part
 {
   width:70%;
   padding:20px;
 }
+.list-loisir
+{
+  text-align:center;
+}
 .list-loisir li
 {
   width:50px;
   display:inline-block;
-  margin-left: 20px;
+  margin:3px;
 }
+
 .list-part2
 {
 
@@ -160,7 +173,7 @@ ul
 }
 hr
 {
-  color:yellow;
+  color:#FECA07;
 }
 @media screen and (max-width:450px)
 {
