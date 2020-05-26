@@ -109,13 +109,18 @@ aside h2
   padding:20px;
   width:80%;
   text-align:left;
+  margin-left:20px;
+}
+.section-principale ul{
+  padding: 0;
 }
 .section-principale .fas , .section-principale .far
-
 {
- color:#FECA07;
- margin-right: 20px;
-
+  color:#FECA07;
+  padding-left: 0;
+}
+h2 .fas{
+    margin-right: 20px;
 }
 
 .li-flex 
