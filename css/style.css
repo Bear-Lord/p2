@@ -180,8 +180,12 @@ hr
 {
   color:#FECA07;
 }
-@media screen and (max-width:450px)
+@media screen and (max-width:700px)
 {
+  .photo img
+  {
+   margin:10px;
+  }
   #main
   {
     flex-direction: column-reverse;
@@ -212,8 +216,9 @@ hr
   }
   .section-principale
   {
-    width:100%;
-    padding:0;
+    width:auto;
+    padding:10px;
+    margin:0;
   }
   .section-principale h2{
     padding: 20px;
